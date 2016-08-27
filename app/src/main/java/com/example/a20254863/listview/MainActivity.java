@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         mPullRefreshListView.setMode(Mode.BOTH);
         mDatas = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            DataBean dataBean = new DataBean("" + i, "步步高", "教育电子" + i + ",good");
+            DataBean dataBean = new DataBean("" + i, "步步高", "教育电子" + i + ",good!");
             mDatas.add(dataBean);
             Sum++;
         }
