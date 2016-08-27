@@ -101,7 +101,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 			default:
 				lp.gravity = scrollDirection == Orientation.VERTICAL ? Gravity.BOTTOM : Gravity.RIGHT;
 
-				// Load in labels   tanglanting
+				// Load in labels   tanglanting :start mode hasn't the text
 			//	mPullLabel = context.getString(R.string.pull_to_refresh_pull_label);
 				mRefreshingLabel = context.getString(R.string.pull_to_refresh_refreshing_label);
 			//	mReleaseLabel = context.getString(R.string.pull_to_refresh_release_label);
