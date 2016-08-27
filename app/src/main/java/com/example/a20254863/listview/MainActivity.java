@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 new GetDataTask().execute();
             }
         });
-        // Add an end-of-list listener aa
+        // Add an end-of-list listener
         mPullRefreshListView.setOnLastItemVisibleListener(new OnLastItemVisibleListener() {
 
             @Override
