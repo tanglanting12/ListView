@@ -106,7 +106,7 @@ public class PullToRefreshListView extends PullToRefreshAdapterViewBase<ListView
 		// Make sure the opposite end is hidden too
 		oppositeListViewLoadingView.setVisibility(View.GONE);
 
-		// Show the ListView Loading View and set it to refresh.
+		// Show the ListView Loading View and set it to refresh.  tanglanting
 		if(ifHaveIcon) {
 			listViewLoadingView.setVisibility(View.VISIBLE);
 			listViewLoadingView.refreshing();
